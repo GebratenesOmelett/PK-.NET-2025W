@@ -1,0 +1,16 @@
+{
+  "CharactersWithSpaces": 65,
+  "CharactersWithoutSpaces": 55,
+  "Letters": 55,
+  "Digits": 0,
+  "Punctuation": 0,
+  "WordCount": 11,
+  "UniqueWordCount": 11,
+  "MostCommonWord": "Na",
+  "AverageWordLength": 5.0,
+  "LongestWord": "niewidzialny",
+  "ShortestWord": "go",
+  "SentenceCount": 1,
+  "AverageWordsPerSentence": 11.0,
+  "LongestSentence": "Na ekierce siedzi jez ale nie widac go poniewaz jest niewidzialny"
+}

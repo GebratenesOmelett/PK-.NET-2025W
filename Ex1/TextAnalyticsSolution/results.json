@@ -1,16 +1,16 @@
 {
-  "CharactersWithSpaces": 44,
-  "CharactersWithoutSpaces": 37,
-  "Letters": 37,
+  "CharactersWithSpaces": 43,
+  "CharactersWithoutSpaces": 36,
+  "Letters": 36,
   "Digits": 0,
   "Punctuation": 0,
   "WordCount": 8,
   "UniqueWordCount": 8,
   "MostCommonWord": "Na",
-  "AverageWordLength": 4.625,
+  "AverageWordLength": 4.5,
   "LongestWord": "ekierce",
-  "ShortestWord": "ma",
+  "ShortestWord": "Na",
   "SentenceCount": 1,
   "AverageWordsPerSentence": 8.0,
-  "LongestSentence": "Na ekierce siedzi jelen ktory ma jasne wlosy"
+  "LongestSentence": "Na ekierce siedzi lis ktory widzi dwie wody"
 }

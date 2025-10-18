@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TextAnalytics.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+64dccaadf493e891893ff49f5bb9c88be87fdf05")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+848e72a0077c95fcaa151ddf9b06c59c341ec1d2")]
 [assembly: System.Reflection.AssemblyProductAttribute("TextAnalytics.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TextAnalytics.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
