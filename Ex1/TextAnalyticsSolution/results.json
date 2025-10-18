@@ -1,0 +1,16 @@
+{
+  "CharactersWithSpaces": 44,
+  "CharactersWithoutSpaces": 37,
+  "Letters": 37,
+  "Digits": 0,
+  "Punctuation": 0,
+  "WordCount": 8,
+  "UniqueWordCount": 8,
+  "MostCommonWord": "Na",
+  "AverageWordLength": 4.625,
+  "LongestWord": "ekierce",
+  "ShortestWord": "ma",
+  "SentenceCount": 1,
+  "AverageWordsPerSentence": 8.0,
+  "LongestSentence": "Na ekierce siedzi jelen ktory ma jasne wlosy"
+}

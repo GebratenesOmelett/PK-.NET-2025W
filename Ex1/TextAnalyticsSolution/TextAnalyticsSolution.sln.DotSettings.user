@@ -1,0 +1,4 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=45d4d760_002D9961_002D48fb_002Db6e0_002D60ba8f03cb36/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="CountWords_Returns2_ForHelloWorld" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Project Location="C:\Users\Aleksy\RiderProjects\PK-.NET-2025W\Ex1\TextAnalyticsSolution\TextAnalytics.Tests" Presentation="&amp;lt;TextAnalytics.Tests&amp;gt;" /&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
