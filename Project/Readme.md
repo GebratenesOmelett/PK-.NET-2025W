@@ -1,8 +1,14 @@
 # Projekt zaliczeniowy: **Hotel API** (ASP.NET Core + EF Core)
 
+
 **Tryb:** praca w parach  
 **UI:** brak – wyłącznie interfejs API (REST).  
-**Technologie:** .NET 8 LTS (preferowane) lub .NET 9, ASP.NET Core Web API, EF Core (Code‑First), dowolny RDBMS (SQLite/SQL Server/PostgreSQL).
+**Technologie:** .NET 8 LTS (preferowane) lub .NET 9, ASP.NET Core Web API, EF Core (Code‑First), dowolny RDBMS (SQLite/SQL Server/PostgreSQL).  
+**Repozytorium**: Własne, prywatne.  
+**Polityka PR**: Zmiany w projekcie należy realizować przez Pull request - jeden z członków zespołu robi PR, drugi do sprawdza, nanosi ewentualne uwagi i na końcu merguje do głównej gałęzi.  
+**Mile widziane i dodatkowo punktowane**: kontener Docker, wdrożenie na Azure, zbudowanie pipeline CI/CD z wykorzystaniem Github Action, testy wydajnościowe JMeter, NBomber bądź inne narzędzie
+
+Propozycja tematu - Studenci mogą zaproponować swoje rozwiązania, jeśli zawieraja podobny zakres funkcjonalny i wytyczne techniczne
 
 ---
 
