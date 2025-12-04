@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("TextAnalytics.Services")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("lab3")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bc3b455321f0be9210fe7809235f0862989470d4")]
-[assembly: System.Reflection.AssemblyProductAttribute("TextAnalytics.Services")]
-[assembly: System.Reflection.AssemblyTitleAttribute("TextAnalytics.Services")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a20347ef95b7e78ab91a5862979660a2294a589d")]
+[assembly: System.Reflection.AssemblyProductAttribute("lab3")]
+[assembly: System.Reflection.AssemblyTitleAttribute("lab3")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Wygenerowane przez klasę WriteCodeFragment programu MSBuild.
