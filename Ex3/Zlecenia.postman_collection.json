@@ -1,0 +1,252 @@
+{
+	"info": {
+		"_postman_id": "86e89098-ee42-4430-bdab-2932a8185518",
+		"name": "Zlecenia",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28867577"
+	},
+	"item": [
+		{
+			"name": "Pobierz listę pojazdów",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/vehicles",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"vehicles"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Pobierz listę dostępnych pojazdów",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/vehicles/available",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"vehicles",
+						"available"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Dodaj nowy pojazd truck",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"registrationNumber\": \"WA12345\",\r\n  \"maxLoadKg\": 5000,\r\n  \"numberOfAxles\": 3\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/vehicles/truck",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"vehicles",
+						"truck"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Dodaj nowy pojazd van",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"registrationNumber\": \"WB67890\",\r\n  \"maxLoadKg\": 1500,\r\n  \"hasSlidingDoor\": true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/vehicles/van",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"vehicles",
+						"van"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Pobierz listę kierowców",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/drivers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"drivers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Pobierz listę dostępnych kierowców",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/drivers/available",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"drivers",
+						"available"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Pobierz zlecenia",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/orders",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"orders"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Dodaj kierowcę",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Jan Kowalski\",\r\n  \"licenseNumber\": \"ABC123456\",\r\n  \"isAvailable\": true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/drivers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"drivers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Utwórz zlecenie transportowe",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"cargoDescription\": \"Meble biurowe\",\r\n  \"weight\": 1200,\r\n  \"vehicleId\": 2,\r\n  \"driverId\": 2\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/orders",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"orders"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Zakończ zlecenie",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/orders/1/complete",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"orders",
+						"1",
+						"complete"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
